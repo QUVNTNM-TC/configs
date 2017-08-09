@@ -74,8 +74,8 @@ CT_PATCH_ORDER="bundled"
 CT_PARALLEL_JOBS=5
 CT_LOAD=""
 CT_USE_PIPES=y
-CT_EXTRA_CFLAGS_FOR_BUILD=""
-CT_EXTRA_LDFLAGS_FOR_BUILD=""
+CT_EXTRA_CFLAGS_FOR_BUILD="-O2 -ftree-vectorize "
+CT_EXTRA_LDFLAGS_FOR_BUILD="-Wl,-O2,--sort-common,--as-needed,-z,relro,-z,now"
 CT_EXTRA_CFLAGS_FOR_HOST=""
 CT_EXTRA_LDFLAGS_FOR_HOST=""
 # CT_CONFIG_SHELL_SH is not set
@@ -162,7 +162,7 @@ CT_ARCH_FLOAT_HW=y
 # CT_ARCH_FLOAT_SOFTFP is not set
 # CT_ARCH_FLOAT_SW is not set
 CT_TARGET_CFLAGS=""
-CT_TARGET_LDFLAGS=""
+CT_TARGET_LDFLAGS="-Wl,-O2,--sort-common,--as-needed,-z,relro,-z,now"
 CT_ARCH_FLOAT="hard"
 
 #
