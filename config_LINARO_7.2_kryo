@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# crosstool-NG crosstool-ng-1.23.0-280-g01e32905 Configuration
+# crosstool-NG crosstool-ng-1.23.0-294-gb355005f Configuration
 #
 CT_CONFIGURE_has_static_link=y
 CT_CONFIGURE_has_wget=y
@@ -436,7 +436,7 @@ CT_GCC_LINARO_DEVEL_VCS_git=y
 # CT_GCC_LINARO_DEVEL_VCS_cvs is not set
 CT_GCC_LINARO_DEVEL_VCS="git"
 CT_GCC_LINARO_DEVEL_URL="https://git.linaro.org/toolchain/gcc.git"
-CT_GCC_LINARO_DEVEL_BRANCH="linaro-snapshot-7.2-2017.11"
+CT_GCC_LINARO_DEVEL_BRANCH="linaro-snapshot-7.2-2018.01"
 CT_GCC_LINARO_DEVEL_REVISION=""
 CT_GCC_LINARO_DEVEL_SUBDIR=""
 CT_GCC_LINARO_DEVEL_BOOTSTRAP=""
