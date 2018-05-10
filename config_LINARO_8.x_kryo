@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# crosstool-NG 1.23.0-360-g5472517b Configuration
+# crosstool-NG 1.23.0-385-g7d3d4d9e Configuration
 #
 CT_CONFIGURE_has_static_link=y
 CT_CONFIGURE_has_wget=y
@@ -11,8 +11,11 @@ CT_CONFIGURE_has_libtool_2_4_or_newer=y
 CT_CONFIGURE_has_libtoolize_2_4_or_newer=y
 CT_CONFIGURE_has_autoreconf_2_65_or_newer=y
 CT_CONFIGURE_has_gnu_m4_1_4_12_or_newer=y
-CT_CONFIGURE_has_svn=y
 CT_CONFIGURE_has_git=y
+CT_CONFIGURE_has_md5sum=y
+CT_CONFIGURE_has_sha1sum=y
+CT_CONFIGURE_has_sha256sum=y
+CT_CONFIGURE_has_sha512sum=y
 CT_CONFIGURE_has_install_with_strip_program=y
 CT_MODULES=y
 
@@ -362,12 +365,12 @@ CT_MUSL_PKG_NAME="musl"
 CT_MUSL_SRC_RELEASE=y
 # CT_MUSL_SRC_DEVEL is not set
 # CT_MUSL_SRC_CUSTOM is not set
-# CT_MUSL_V_1_1_19 is not set
-CT_MUSL_V_1_1_18=y
+CT_MUSL_V_1_1_19=y
+# CT_MUSL_V_1_1_18 is not set
 # CT_MUSL_V_1_1_17 is not set
 # CT_MUSL_V_1_1_16 is not set
 # CT_MUSL_V_1_1_15 is not set
-CT_MUSL_VERSION="1.1.18"
+CT_MUSL_VERSION="1.1.19"
 CT_MUSL_MIRRORS="http://www.musl-libc.org/releases"
 CT_MUSL_ARCHIVE_FILENAME="@{pkg_name}-@{version}"
 CT_MUSL_ARCHIVE_DIRNAME="@{pkg_name}-@{version}"
