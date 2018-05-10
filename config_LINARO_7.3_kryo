@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# crosstool-NG 1.23.0-364-g90d14443 Configuration
+# crosstool-NG 1.23.0-385-g7d3d4d9e Configuration
 #
 CT_CONFIGURE_has_static_link=y
 CT_CONFIGURE_has_wget=y
@@ -12,6 +12,10 @@ CT_CONFIGURE_has_libtoolize_2_4_or_newer=y
 CT_CONFIGURE_has_autoreconf_2_65_or_newer=y
 CT_CONFIGURE_has_gnu_m4_1_4_12_or_newer=y
 CT_CONFIGURE_has_git=y
+CT_CONFIGURE_has_md5sum=y
+CT_CONFIGURE_has_sha1sum=y
+CT_CONFIGURE_has_sha256sum=y
+CT_CONFIGURE_has_sha512sum=y
 CT_CONFIGURE_has_install_with_strip_program=y
 CT_MODULES=y
 
@@ -418,7 +422,7 @@ CT_GCC_LINARO_DEVEL_VCS_git=y
 # CT_GCC_LINARO_DEVEL_VCS_cvs is not set
 CT_GCC_LINARO_DEVEL_VCS="git"
 CT_GCC_LINARO_DEVEL_URL="https://git.linaro.org/toolchain/gcc.git"
-CT_GCC_LINARO_DEVEL_BRANCH="linaro-snapshot-7.3-2018.04"
+CT_GCC_LINARO_DEVEL_BRANCH="linaro-7.3-2018.05-rc1"
 CT_GCC_LINARO_DEVEL_REVISION=""
 CT_GCC_LINARO_DEVEL_SUBDIR=""
 CT_GCC_LINARO_DEVEL_BOOTSTRAP=""
