@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# crosstool-NG 1.23.0-385-g7d3d4d9e Configuration
+# crosstool-NG 1.23.0-399-gea53be75 Configuration
 #
 CT_CONFIGURE_has_static_link=y
 CT_CONFIGURE_has_wget=y
@@ -112,6 +112,7 @@ CT_LOG_LEVEL_MAX="EXTRA"
 # Target options
 #
 # CT_ARCH_ALPHA is not set
+# CT_ARCH_ARC is not set
 CT_ARCH_ARM=y
 # CT_ARCH_AVR is not set
 # CT_ARCH_M68K is not set
@@ -162,7 +163,7 @@ CT_ARCH_SUPPORTS_WITH_CPU=y
 CT_ARCH_SUPPORTS_WITH_TUNE=y
 CT_ARCH_EXCLUSIVE_WITH_CPU=y
 CT_TARGET_CFLAGS=""
-CT_TARGET_LDFLAGS="-Wl,-O2,--sort-common,--as-needed,-z,relro,-z,now"
+CT_TARGET_LDFLAGS=""
 
 #
 # Toolchain options
@@ -381,6 +382,8 @@ CT_GLIBC_ARCHIVE_FILENAME="@{pkg_name}-@{version}"
 CT_GLIBC_ARCHIVE_DIRNAME="@{pkg_name}-@{version}"
 CT_GLIBC_ARCHIVE_FORMATS=".tar.xz .tar.bz2 .tar.gz"
 CT_GLIBC_SIGNATURE_FORMAT="packed/.sig"
+CT_GLIBC_2_27_or_later=y
+CT_GLIBC_2_27_or_older=y
 CT_GLIBC_later_than_2_26=y
 CT_GLIBC_2_26_or_later=y
 CT_GLIBC_later_than_2_24=y
@@ -413,6 +416,7 @@ CT_GLIBC_FORCE_UNWIND=y
 CT_GLIBC_KERNEL_VERSION_AS_HEADERS=y
 # CT_GLIBC_KERNEL_VERSION_CHOSEN is not set
 CT_GLIBC_MIN_KERNEL="3.18.104"
+# CT_GLIBC_ENABLE_WERROR is not set
 CT_LIBC_SUPPORT_THREADS_ANY=y
 CT_LIBC_SUPPORT_THREADS_NATIVE=y
 
@@ -502,7 +506,7 @@ CT_CC_GCC_USE_LTO=y
 #
 # CT_CC_GCC_ENABLE_TARGET_OPTSPACE is not set
 # CT_CC_GCC_LIBMUDFLAP is not set
-# CT_CC_GCC_LIBGOMP is not set
+CT_CC_GCC_LIBGOMP=y
 # CT_CC_GCC_LIBSSP is not set
 # CT_CC_GCC_LIBQUADMATH is not set
 # CT_CC_GCC_LIBSANITIZER is not set
